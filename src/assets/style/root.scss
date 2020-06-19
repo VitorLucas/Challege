@@ -1,0 +1,17 @@
+@import 'color.scss';
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  height: 100%;
+  background-color: $background;
+  color: black;
+  margin: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+  position: absolute;
+  width: 100%;
+}

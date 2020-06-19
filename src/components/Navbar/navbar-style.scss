@@ -1,0 +1,27 @@
+@import '../../assets/style//color.scss';
+
+.Nav {
+  background-color: $navibar;
+  min-height: 10vh;
+  height: 10vh;
+  width: 100%;
+  padding:0;
+  font-size: calc(2px + 1.5vmin);
+  font-style: normal; 
+  color: white;
+}
+
+.LeftItems{
+  display: flex;
+  align-items: center;    
+}
+
+.RightItems{
+  display: flex;
+  align-items: center; 
+  justify-content: flex-end; 
+}
+
+.Link{
+  padding-left: 15px;
+}
